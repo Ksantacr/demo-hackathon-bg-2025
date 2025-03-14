@@ -56,7 +56,7 @@ export default function ProductSearch() {
       {!hasSearched || searchQuery === "" ? (
         <div className="text-center py-12">
           <div className="w-24 h-24 mx-auto mb-4">
-            <img src="/placeholder.svg?height=96&width=96" alt="Search" className="w-full h-full opacity-50" />
+            <img src="https://www.iconpacks.net/icons/2/free-search-icon-2911-thumb.png" alt="Search" className="w-full h-full opacity-50" />
           </div>
           <p className="text-lg text-gray-500">Ingresa un término de búsqueda para encontrar productos y servicios</p>
         </div>
