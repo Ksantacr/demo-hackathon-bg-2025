@@ -28,15 +28,15 @@ export default function RootLayout({
             <li>
               <Link href="/" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
               <Home className="w-5 h-5" />
-                <span>Home</span>
+                <span>Buscar</span>
               </Link>
             </li>
-            {/* <li>
-              <a href="#" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
+            <li>
+              <a href="/offers" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
                 <BookOpen className="w-5 h-5" />
-                <span>Guides</span>
+                <span>Ofertas</span>
               </a>
-            </li> */}
+            </li>
             {/* <li>
               <a href="#" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
                 <GraduationCap className="w-5 h-5" />
@@ -52,7 +52,7 @@ export default function RootLayout({
             <li>
               <a href="/directory" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
                 <Grid3X3 className="w-5 h-5" />
-                <span>Directory</span>
+                <span>Directorio PYMES</span>
               </a>
             </li>
             {/* <li>
