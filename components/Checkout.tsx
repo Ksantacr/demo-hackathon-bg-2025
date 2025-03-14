@@ -65,9 +65,10 @@ export default function Checkout({ cart, creditLimit = 10000 }: CheckoutProps) {
                       <AccordionTrigger>Ver detalles del crédito</AccordionTrigger>
                       <AccordionContent>
                         <div className="space-y-2 text-sm">
-                          <p>Cuotas de ${monthlyPayment.toFixed(2)} por 6 meses</p>
-                          <p>Interés: 50%</p>
-                          <p>Total a pagar: ${(cartTotal * 1.5).toFixed(2)}</p>
+                          <p>Cuotas de $442,85</p>
+                          <p>Plazo: 12 meses</p>
+                          <p>Interés: 11,2%</p>
+                          <p>Total a pagar: $5314,16</p>
                         </div>
                       </AccordionContent>
                     </AccordionItem>
