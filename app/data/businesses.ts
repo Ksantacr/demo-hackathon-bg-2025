@@ -57,7 +57,7 @@ export const businesses: Business[] = [
         price: 8.5,
         totalStock: 100,
         currentStock: 5,
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjYgY2Jc93skNQJ1603Oka_Gfu784DxRCE6w&s",
+        imageUrl: "https://www.holcim.com.ec/sites/ecuador/files/2022-06/ultra-durable-circulo.png",
       },
       {
         id: 2,
@@ -146,7 +146,7 @@ export const businesses: Business[] = [
         price: 7.8,
         totalStock: 150,
         currentStock: 30,
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuyadSuH5J1407XDw3eKSawIP37yh32ctgbA&s",
+        imageUrl: "https://www.holcim.com.ec/sites/ecuador/files/2022-06/ultra-durable-circulo.png",
       },
       {
         id: 9,
