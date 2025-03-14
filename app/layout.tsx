@@ -32,10 +32,10 @@ export default function RootLayout({
               </Link>
             </li>
             <li>
-              <a href="/offers" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
+              <Link href="/offers" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
                 <BookOpen className="w-5 h-5" />
                 <span>Ofertas</span>
-              </a>
+              </Link>
             </li>
             {/* <li>
               <a href="#" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
@@ -50,10 +50,10 @@ export default function RootLayout({
               </a>
             </li> */}
             <li>
-              <a href="/directory" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
+              <Link href="/directory" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
                 <Grid3X3 className="w-5 h-5" />
                 <span>Directorio PYMES</span>
-              </a>
+              </Link>
             </li>
             {/* <li>
               <a href="#" className="flex items-center gap-3 px-4 py-3 rounded-md hover:bg-white/10">
